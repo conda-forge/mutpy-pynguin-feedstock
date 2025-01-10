@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools
   run:
     - astmonkey >=0.3.6
     - jinja2 >=2.7.1
